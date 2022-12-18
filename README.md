@@ -20,7 +20,7 @@ The dataset was first split into the respective stores, in this case, the main d
 A simple neural network model of 8 fully connected layers was used for both the individual and federated learning model for fair comparison. Each model is train at 100 epoch and with a early stopping callback.
 
 #### Individual model
-The individual models are simply trained with the individual dataset. This is to simulate the real world scenario where the business only have access to their own dataset. More details can be found in the [individual_model notebook](https://github.com/dljw/federated-learning/blob/main/notebooks/00_initial_EDA.ipynbb)
+The individual models are simply trained with the individual dataset. This is to simulate the real world scenario where the business only have access to their own dataset. More details can be found in the [individual_model notebook](https://github.com/dljw/federated-learning/blob/main/notebooks/00_initial_EDA.ipynb)
 
 #### Federated learning model
 The federated learning model was trained in two steps. In the first step, we train the model using the simple FedAvg method using the data across the 45 stores. This was performed for 10 rounds. The weights learnt in the federated learning process was than used to initialise the fine-tuning step for each store.
