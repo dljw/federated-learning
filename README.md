@@ -26,7 +26,7 @@ The individual models are simply trained with the individual dataset. This is to
 The federated learning model was trained in two steps. In the first step, we train the model using the simple FedAvg method using the data across the 45 stores. This was performed for 10 rounds. The weights learnt in the federated learning process was than used to initialise the fine-tuning step for each store.
 
 ### Dataset
-The Walmart dataset were used in this project, you can find out more in this link here.
+The Walmart dataset were used in this project, you can find out more in this link [here](https://www.kaggle.com/code/aslanahmedov/walmart-sales-forecasting/data).
 
 The dataset compromises of 45 walmart stores, each store can have up to 99 departments. Each store have a different distribution for the weeky sales on a store level as well as on the product level. Refer to the eda notebook for more information.
 This highlight one of the challenging face in the federated learning domain, heterogeneity of the dataset
