@@ -40,6 +40,6 @@ Overall the federated learning model showed a 14% improvement in the MAE score a
 ![MAE differences](./images/mae_diff.png)
 
 ### Limitation
-In this experiment, we explore the effectiveness of FL in demand forecasting. However, for simiplicity the team did not use any time series machine learning model architecture. To improve the performance of the model, further exploration of more sophisticated time series ML architecture. It is worth to note, however, that the train, validation and test set were split with time series to avoid any data leakage. 
+In this experiment, we explore the effectiveness of FL in demand forecasting. However, for simiplicity the team did not use any time series machine learning model architecture. To improve the performance of the model, further exploration of more sophisticated time series ML architecture is needed. It is worth to note, however, that the train, validation and test set were split with time series to avoid any data leakage. 
 
 
